@@ -1,0 +1,42 @@
+/create:
+  opt0:
+    - :
+      type: 'constant'
+      value: 'subscription'
+    - :
+      type: 'any_string'
+    - :
+      type: 'upper_string'
+      optional: true
+    - :
+      type: 'time_diff'
+      optional : true
+/update:
+  opt0:
+    - :
+      type: 'constant'
+      value: 'subscription'
+    - :
+      type: 'any_string'
+    - :
+      type: 'constant'
+      value: 'tag'
+    - :
+      type: 'upper_string'
+  opt1:
+    - :
+      type: 'constant'
+      value: 'subscription'
+    - :
+      type: 'any_string'
+    - :
+      type: 'constant'
+      value: 'period'
+    - :
+      type: 'time_diff'
+
+
+#/start:
+#/get:
+#/del:
+#/help:
