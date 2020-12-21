@@ -2,3 +2,11 @@ server:
   port: 5000
 
 locale: 'ru-RU'
+
+env:
+  var:
+    names:
+      bot:
+        token: 'BOT_TOKEN'
+        webhookPath: 'BOT_WEBHOOK_PATH'
+        name: 'BOT_NAME'
