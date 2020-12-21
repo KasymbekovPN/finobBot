@@ -5,5 +5,5 @@ locale: 'ru-RU'
 
 bot:
   name: '@kpn_finob_bot'
-  token: '1484440787:AAHjJ2-ZdiF2_sY7SWQeTz6nIhbSht6PzFs'
-  webhookPath: 'https://6ce7594ee33c.ngrok.io'
+  token: ''
+  webhookPath: ''
